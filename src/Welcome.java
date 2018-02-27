@@ -21,7 +21,7 @@ public class Welcome extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("Welcome.fxml"));
         
         Scene scene = new Scene(root);
-        
+        stage.setTitle("Welcome to java!");
         stage.setScene(scene);
         stage.show();
     }
